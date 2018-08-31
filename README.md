@@ -10,5 +10,5 @@ $ docker image build -t example/echo:latest .
 ## run
 
 ```
-$ docker container run example/echo:latest
+$ docker container run -d -p 9000:8080 example/echo:latest
 ```
